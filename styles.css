@@ -32,10 +32,14 @@ header > h1 {
 
 header > p {
   color: #DFF6FF;
-  border: 1em;
   background-color: #1363DF;
   padding: 2em;
-  border-radius: 1em;
+
+  border: 10px;
+  border-style:solid;
+  border-color: white;
+  border-width: 0.5em;  
+  border-radius: 2em;
 }
 
 ul {
@@ -78,6 +82,22 @@ ul > li > a {
   justify-content: center;
   align-items: center;
   gap: 0.5em;
+}
+
+ul > li > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 1px 10px;
+  font-weight: bold;
+  gap: 0.5em;
+}
+
+ul > li > a > img {
+  background-color: white;
+  border-radius: 3em;
 }
 
 a {
